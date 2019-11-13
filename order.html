@@ -1,0 +1,121 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+	<head>
+		
+		<meta charset="UTF-8"> 
+		
+		<title>HTML5 Template</title>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<style>
+/*Function copied from bootstrap class to hide label so only viewable on screen readers. Used this to make the image cliackable in the order form*/
+			.sr-only {
+				  position: absolute;
+				  width: 1px;
+				  height: 1px;
+				  padding: 0;
+				  margin: -1px;
+				  overflow: hidden;
+				  clip: rect(0,0,0,0);
+				  border: 0;}
+
+		/*starting to add effects to the radio button, this is testing if the image option works*/	
+			/*input[type=radio] + label {
+			  color: #ccc;
+			  font-style: italic;
+			} */
+			input[type=radio]:checked + label {
+			  border: 10px solid red;
+			
+			} 
+			
+
+			img{
+				width: 50px;
+			}
+		</style>
+		
+	</head>
+
+	<body>
+			
+		<h1>Order Form</h1>
+			<form>
+		<!-- First section* -->
+				<h2>Snack</h2>
+
+				<input type="radio" name="snack" class="sr-only" value="carrots" id="carrots">
+		  		<label for="carrots">
+		  		  <img src="image1.jpg" alt="Carrots">
+		  		</label>
+  			
+  				<input type="radio" name="snack" class="sr-only" value="broccoli" id="broccoli">
+		  		<label for="broccoli">
+		  		  <img src="image1.jpg" alt="Carrots">
+		  		</label>
+				
+				<input type="radio" name="snack" class="sr-only" value="celery" id="celery">
+		  		<label for="celery">
+		  		  <img src="image1.jpg" alt="Carrots">
+		  		</label>
+
+		<!-- Second section -->
+
+				<h2>Fruit</h2>
+
+				<input type="radio" name="fruit" class="sr-only" value="apple" id="apple">
+		  		<label for="apple">
+		  		  <img src="image1.jpg" alt="Carrots">
+		  		</label>
+  			
+  				<input type="radio" name="fruit" class="sr-only" value="orange" id="orange">
+		  		<label for="orange">
+		  		  <img src="image1.jpg" alt="Carrots">
+		  		</label>
+				
+				<input type="radio" name="fruit" class="sr-only" value="banana" id="banana">
+		  		<label for="banana">
+		  		  <img src="image1.jpg" alt="Banana">
+		  		</label>
+
+		<!--Third section-->
+
+			<h2>Meal</h2>
+
+				<input type="radio" name="meal" class="sr-only" value="chicken" id="apple">
+		  		<label for="apple">
+		  		  <img src="image1.jpg" alt="Carrots">
+		  		</label>
+  			
+  				<input type="radio" name="meal" class="sr-only" value="falafel" id="orange">
+		  		<label for="orange">
+		  		  <img src="image1.jpg" alt="Carrots">
+		  		</label>
+				
+				<input type="radio" name="meal" class="sr-only" value="houmous" id="banana">
+		  		<label for="banana">
+		  		  <img src="image1.jpg" alt="Banana">
+		  		</label>
+
+
+		  <!-- Submit button		 -->
+		  		<input type="submit">
+
+  			</form>
+
+
+			
+			
+			
+			
+			
+			
+			
+	</body>
+
+</html>
