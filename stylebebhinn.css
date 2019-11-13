@@ -1,0 +1,53 @@
+/*Used in contact us and order forms*/
+/*Function copied from bootstrap class to hide label so 
+only viewable on screen readers. Used this to make the 
+image cliackable in the order form*/
+.sr-only {
+				  position: absolute;
+				  width: 1px;
+				  height: 1px;
+				  padding: 0;
+				  margin: -1px;
+				  overflow: hidden;
+				  clip: rect(0,0,0,0);
+				  border: 0;}
+
+/*starting to add effects to the radio button in the order form, this is testing if the image option works*/	
+
+			/* follows is code for unchecked radio box
+			input[type=radio] + label {
+			color: #ccc;
+			font-style: italic;
+			} */
+
+			input[type=radio]:checked + label {
+			  border: 10px solid red;
+			
+			} 
+/*code for making images smaller while designing order form*/
+			form img{
+				width: 50px;
+			}
+
+
+/* code for index page*/
+		.index{
+					text-align:center;
+				}
+
+		.roundimage {
+			border-radius:50%;
+			height:100px;
+		}
+
+		.testsection{
+			float:left;
+		}
+
+		.testquote{
+			width:250px;
+		}
+
+		.letsget{
+			clear:left;
+		}
