@@ -1,0 +1,59 @@
+
+/*css for registration form*/
+{
+	margin:0;
+	padding:0;
+}
+h1{
+	text-align:center;
+	padding:20px;
+}
+
+.register{
+	background:#7787a3;
+	width:500px;
+	margin-left:400px;
+	color:white;
+	font-size:18;
+	padding:20px;
+	border-radius:10px;
+	float:left;	
+	text-align:left;		
+}
+
+
+label{
+	color:white;
+	font-family:sans-serif;
+	font-size:18px;
+	
+}
+#name{
+	width:300px;
+	border:none;
+	outline:0;
+	padding:7px;
+	
+}
+#ph{width:65px;
+padding:7px;
+border:none;
+border-radius:3px;
+outline:0;
+	
+	
+}
+#num{
+	width:230px;
+	padding:7px;
+	border:none;
+	outline:0;
+}
+#sub{
+	width:200px;
+	padding:7px;
+	font-family:sans-serif;
+	font-weight:600;
+	font-size:16px;
+	border-radius:3px;
+}
